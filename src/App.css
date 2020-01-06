@@ -1,0 +1,51 @@
+
+h1 {
+  text-align: center;
+}
+
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 24px;
+  color: rgb(59, 24, 104);
+}
+
+form {
+  text-align: center;
+  margin-top: auto;
+}
+
+input {
+  border: none;
+  border-bottom: 1px medium dashed black;
+  margin-left: 0.5em;
+  font-size: 1em;
+  outline: none;
+}
+
+.temp-wrapper {
+  text-align: center;
+  position: relative;
+}
+.wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+
+.temp {
+  font-size: 64px;
+}
+
+.temp-symbol {
+  position: absolute;
+  top: 15px;
+  margin-left: 3px;
+}
+
+.temp-date {
+  position: absolute;
+  bottom: -1em;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(0, 0, 0, 0);
+}
