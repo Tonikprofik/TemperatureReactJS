@@ -1,3 +1,15 @@
+## Steps to run the project
+have installed nodejs
+
+enter following commands from GitBash if on Windows
+
+npm install xhr
+npm install -g create-react-app
+create-react-app temperature-app
+
+npm start
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
